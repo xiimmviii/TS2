@@ -13,6 +13,13 @@ namespace PackageVersions;
 final class Versions
 {
     public const ROOT_PACKAGE_NAME = '__root__';
+    /**
+     * Array of all available composer packages.
+     * Dont read this array from your calling code, but use the \PackageVersions\Versions::getVersion() method instead.
+     *
+     * @var array<string, string>
+     * @internal
+     */
     public const VERSIONS          = array (
   'doctrine/annotations' => 'v1.7.0@fa4c4e861e809d6a1103bd620cce63ed91aedfeb',
   'doctrine/cache' => 'v1.8.0@d768d58baee9a4862ca783840eca1b9add7a7f57',
@@ -118,13 +125,13 @@ final class Versions
   'symfony/var-dumper' => 'v4.3.4@641043e0f3e615990a0f29479f9c117e8a6698c6',
   'symfony/web-profiler-bundle' => 'v4.3.4@387c36fd133c08bb0d78d8de17c1121681b37a09',
   'symfony/web-server-bundle' => 'v4.3.4@dc26b980900ddf3e9feade14e5b21c029e8ca92f',
-  'paragonie/random_compat' => '2.*@e536b1df7557900784aff2ad805aba546813ece2',
-  'symfony/polyfill-ctype' => '*@e536b1df7557900784aff2ad805aba546813ece2',
-  'symfony/polyfill-iconv' => '*@e536b1df7557900784aff2ad805aba546813ece2',
-  'symfony/polyfill-php71' => '*@e536b1df7557900784aff2ad805aba546813ece2',
-  'symfony/polyfill-php70' => '*@e536b1df7557900784aff2ad805aba546813ece2',
-  'symfony/polyfill-php56' => '*@e536b1df7557900784aff2ad805aba546813ece2',
-  '__root__' => 'dev-master@e536b1df7557900784aff2ad805aba546813ece2',
+  'paragonie/random_compat' => '2.*@174316ce16d1dc2d9db8ba07e9051af28e73a154',
+  'symfony/polyfill-ctype' => '*@174316ce16d1dc2d9db8ba07e9051af28e73a154',
+  'symfony/polyfill-iconv' => '*@174316ce16d1dc2d9db8ba07e9051af28e73a154',
+  'symfony/polyfill-php71' => '*@174316ce16d1dc2d9db8ba07e9051af28e73a154',
+  'symfony/polyfill-php70' => '*@174316ce16d1dc2d9db8ba07e9051af28e73a154',
+  'symfony/polyfill-php56' => '*@174316ce16d1dc2d9db8ba07e9051af28e73a154',
+  '__root__' => 'dev-master@174316ce16d1dc2d9db8ba07e9051af28e73a154',
 );
 
     private function __construct()
@@ -133,6 +140,8 @@ final class Versions
 
     /**
      * @throws \OutOfBoundsException If a version cannot be located.
+     *
+     * @psalm-param key-of<self::VERSIONS> $packageName
      */
     public static function getVersion(string $packageName) : string
     {
@@ -141,7 +150,7 @@ final class Versions
         }
 
         throw new \OutOfBoundsException(
-            'Required package "' . $packageName . '" is not installed: cannot detect its version'
+            'Required package "' . $packageName . '" is not installed: check your ./vendor/composer/installed.json and/or ./composer.lock files'
         );
     }
 }

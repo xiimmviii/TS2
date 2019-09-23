@@ -33,3 +33,7 @@ a0d4b1,127.0.0.1,GET,http://localhost:8000/,1569224871,,200
 0aed1f,127.0.0.1,GET,http://localhost:8000/login,1569224887,,200
 b99662,127.0.0.1,POST,http://localhost:8000/login,1569224898,,302
 b73bc7,127.0.0.1,GET,http://localhost:8000/,1569224898,,200
+15123c,127.0.0.1,GET,http://localhost:8000/,1569225128,,200
+eb1d08,127.0.0.1,GET,http://localhost:8000/login,1569225132,,200
+a54c7c,127.0.0.1,GET,http://localhost:8000/realisations,1569225135,29d07a,200
+29d07a,127.0.0.1,GET,http://localhost:8000/realisations,1569225135,,500
