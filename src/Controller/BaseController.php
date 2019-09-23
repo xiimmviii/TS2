@@ -31,6 +31,16 @@ class BaseController extends AbstractController
         ]);
     }
 
+        /**
+     * @Route("/contact", name="contact")
+     */
+    public function contact()
+    {
+        return $this->render('base/contact.html.twig', [
+            'controller_name' => 'BaseController',
+        ]);
+    }
+
 
     /**
      * @Route("/mentions-legales", name="mentions")
