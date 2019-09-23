@@ -209,6 +209,6 @@ class __TwigTemplate_ece0deebfccc7e6e2d72792990d1db088031058d85a3c20caeca995778b
     </button>
 </form>
 {% endblock %}
-", "security/login.html.twig", "C:\\wamp64\\www\\stage\\STAGE-Test-Symfony-1\\templates\\security\\login.html.twig");
+", "security/login.html.twig", "C:\\wamp64\\www\\stage\\TS2\\templates\\security\\login.html.twig");
     }
 }

@@ -874,6 +874,6 @@ class __TwigTemplate_2e5345a94d6ae51d4192684bad9f13fd3f7d76ef37b7da703ce1816dfba
         </tbody>
     </table>
 {% endmacro %}
-", "@WebProfiler/Collector/translation.html.twig", "C:\\wamp64\\www\\stage\\STAGE-Test-Symfony-1\\vendor\\symfony\\web-profiler-bundle\\Resources\\views\\Collector\\translation.html.twig");
+", "@WebProfiler/Collector/translation.html.twig", "C:\\wamp64\\www\\stage\\TS2\\vendor\\symfony\\web-profiler-bundle\\Resources\\views\\Collector\\translation.html.twig");
     }
 }

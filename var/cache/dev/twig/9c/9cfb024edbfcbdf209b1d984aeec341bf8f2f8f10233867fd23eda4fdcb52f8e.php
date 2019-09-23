@@ -305,6 +305,6 @@ class __TwigTemplate_1048d9ec44467f4bb5310f7a3d490bec4424151c687c5431cdfafe3ec44
 <script src=\"https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js\"></script>
 </body>
 
-</html>", "base.html.twig", "C:\\wamp64\\www\\stage\\STAGE-Test-Symfony-1\\templates\\base.html.twig");
+</html>", "base.html.twig", "C:\\wamp64\\www\\stage\\TS2\\templates\\base.html.twig");
     }
 }

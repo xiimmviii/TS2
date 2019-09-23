@@ -26,3 +26,10 @@ e8a577,127.0.0.1,GET,http://localhost:8000/css/style.css,1569222525,573dbe,200
 e0186f,127.0.0.1,GET,http://localhost:8000/images/logo.jpg,1569222526,94c8ff,200
 94c8ff,127.0.0.1,GET,http://localhost:8000/images/logo.jpg,1569222526,,404
 745d88,127.0.0.1,GET,http://localhost:8000/admin,1569222858,,200
+a0d4b1,127.0.0.1,GET,http://localhost:8000/,1569224871,,200
+07ebb3,127.0.0.1,GET,http://localhost:8000/login,1569224876,,200
+889e89,127.0.0.1,GET,http://localhost:8000/logout,1569224882,,302
+1ca3d0,127.0.0.1,GET,http://localhost:8000/,1569224883,,200
+0aed1f,127.0.0.1,GET,http://localhost:8000/login,1569224887,,200
+b99662,127.0.0.1,POST,http://localhost:8000/login,1569224898,,302
+b73bc7,127.0.0.1,GET,http://localhost:8000/,1569224898,,200
