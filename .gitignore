@@ -18,3 +18,5 @@
 /.web-server-pid
 ###< symfony/web-server-bundle ###
 .env
+var/log/dev.log
+var/cache/dev/profiler/index.csv
