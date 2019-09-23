@@ -41,3 +41,9 @@ a54c7c,127.0.0.1,GET,http://localhost:8000/realisations,1569225135,29d07a,200
 843f3e,127.0.0.1,GET,http://localhost:8000/,1569225069,,500
 648030,127.0.0.1,GET,http://localhost:8000/,1569225146,f72fe2,200
 f72fe2,127.0.0.1,GET,http://localhost:8000/,1569225146,,500
+8c028a,127.0.0.1,GET,http://localhost:8000/,1569225627,,200
+4f2272,127.0.0.1,GET,http://localhost:8000/login,1569225632,,200
+a8fde6,127.0.0.1,POST,http://localhost:8000/login,1569225783,,302
+50e555,127.0.0.1,GET,http://localhost:8000/,1569225783,,200
+cfec80,127.0.0.1,GET,http://localhost:8000/contact,1569225788,d8a174,200
+d8a174,127.0.0.1,GET,http://localhost:8000/contact,1569225788,,500
