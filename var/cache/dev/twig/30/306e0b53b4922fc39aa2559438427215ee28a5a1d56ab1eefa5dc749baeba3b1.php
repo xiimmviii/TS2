@@ -154,6 +154,6 @@ class __TwigTemplate_39b350c403b90ac866a2f49b232af3ead58805d7d1d6aa4d9cb1ac0152d
     </ul>
 </div>
 {% endblock %}
-", "admin/index.html.twig", "C:\\wamp64\\www\\stage\\STAGE-Test-Symfony-1\\templates\\admin\\index.html.twig");
+", "admin/index.html.twig", "C:\\wamp64\\www\\stage\\TS2\\templates\\admin\\index.html.twig");
     }
 }

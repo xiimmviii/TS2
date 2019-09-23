@@ -635,6 +635,6 @@ class __TwigTemplate_2c3de0c128f31de230fcc9bfd433d34d2983f989d22419614c747db29a2
     });
 
 /*]]>*/</script>
-", "@Twig/base_js.html.twig", "C:\\wamp64\\www\\stage\\STAGE-Test-Symfony-1\\vendor\\symfony\\twig-bundle\\Resources\\views\\base_js.html.twig");
+", "@Twig/base_js.html.twig", "C:\\wamp64\\www\\stage\\TS2\\vendor\\symfony\\twig-bundle\\Resources\\views\\base_js.html.twig");
     }
 }

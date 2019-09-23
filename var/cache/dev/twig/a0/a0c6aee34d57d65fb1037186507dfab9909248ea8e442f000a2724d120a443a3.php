@@ -67,6 +67,6 @@ class __TwigTemplate_7d9a7efb0add6c7c27c6cb2197a9571ce3922488994c0b45dd1399819f7
         return new Source("<?php echo \$view['form']->start(\$form) ?>
     <?php echo \$view['form']->widget(\$form) ?>
 <?php echo \$view['form']->end(\$form) ?>
-", "@Framework/Form/form.html.php", "C:\\wamp64\\www\\stage\\STAGE-Test-Symfony-1\\vendor\\symfony\\framework-bundle\\Resources\\views\\Form\\form.html.php");
+", "@Framework/Form/form.html.php", "C:\\wamp64\\www\\stage\\TS2\\vendor\\symfony\\framework-bundle\\Resources\\views\\Form\\form.html.php");
     }
 }
