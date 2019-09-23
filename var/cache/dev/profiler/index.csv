@@ -63,3 +63,5 @@ be301f,127.0.0.1,GET,http://localhost:8000/logout,1569225952,,302
 9d6123,127.0.0.1,GET,http://localhost:8000/admin,1569225971,651565,200
 651565,127.0.0.1,GET,http://localhost:8000/admin,1569225971,,500
 e99c80,127.0.0.1,GET,http://localhost:8000/admin,1569226012,,200
+87d978,127.0.0.1,GET,http://localhost:8000/,1569226676,,200
+a31959,127.0.0.1,GET,http://localhost:8000/realisations,1569226751,,200
